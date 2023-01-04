@@ -38,7 +38,7 @@ namespace BlinkBoardLed
 
                     // change direction if reaching minimum duty cycle (0%)
                     if (dutyCycle < 0.10)
-                        goingUp = !goingUp;
+                        break;
                 }
 
                 // update duty cycle
@@ -46,6 +46,9 @@ namespace BlinkBoardLed
 
                 Thread.Sleep(50);
             }
+            led.DutyCycle = .00f;
+
+            led.Stop();
         }
     }
 }
