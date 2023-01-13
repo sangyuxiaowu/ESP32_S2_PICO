@@ -1,6 +1,8 @@
 ﻿# ESP32_S2_PICO
 
-.NET nanoFramework 演示 微雪的 ESP32-S2-Pico 使用
+.NET nanoFramework 演示微雪的 ESP32-S2-Pico 使用
+
+板子介绍：[中文](https://www.waveshare.net/wiki/ESP32-S2-Pico) | [English](https://www.waveshare.com/wiki/ESP32-S2-Pico)
 
 # 案例说明
 
@@ -10,11 +12,11 @@
 
 # 相关文章
 
-1. 《快速入门 .NET nanoFramework 开发 ESP32-Pico 应用》 [https://mp.weixin.qq.com/s/T8NFQbErDSDfZDqzW-5zmA](https://mp.weixin.qq.com/s/T8NFQbErDSDfZDqzW-5zmA)
+1. [《快速入门 .NET nanoFramework 开发 ESP32-Pico 应用》](https://mp.weixin.qq.com/s/T8NFQbErDSDfZDqzW-5zmA)
 
 
 <p align="center">
-相关介绍文章可关注我的微信公众号：桑榆肖物 <br/>
+更多文章可关注我的微信公众号：桑榆肖物 <br/>
 <img src="https://open.weixin.qq.com/qr/code?username=gh_c874018d0317" />
 </p>
 
