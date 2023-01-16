@@ -18,22 +18,50 @@ namespace BlinkBoardLed
             // 生成多少种颜色
             uint ledCount = 25;
 
-            PixelController controller = new PixelController(9, ledCount, false);
+            PixelController controller = new PixelController(9, ledCount);
 
             
             // 简单测试颜色
-            controller.SetColor(0,255,0,0);
+            controller.SetColor(0,255,0,0);//红
             controller.UpdatePixels();
             Thread.Sleep(1000);
-            controller.SetColor(0, 0, 255, 0);
+            controller.SetColor(0, 0, 255, 0);//绿
             controller.UpdatePixels();
             Thread.Sleep(1000);
-            controller.SetColor(0, 0, 0, 255);
+            controller.SetColor(0, 0, 0, 255);//蓝
             controller.UpdatePixels();
             Thread.Sleep(1000);
-            controller.SetColor(0, 255, 255, 255);
+            controller.SetColor(0, 255, 255, 255);//白
             controller.UpdatePixels();
             Thread.Sleep(1000);
+
+            // 呼吸灯效果
+            var ts = 0;
+            for (; ; )
+            {
+                var add = true;
+                var v = 0f;
+                for (; ; )
+                {
+                    controller.SetHSVColor(0, 240, 50, v);
+                    controller.UpdatePixels();
+                    if (add)
+                    {
+                        v += 0.05f;
+                    }
+                    else
+                    {
+                        v -= 0.05f;
+                    }
+                    
+                    if (v >= 1) add = false;
+                    if (v <= 0) break;
+                    Thread.Sleep(50);
+                }
+                if (ts > 5) break;
+                ts++;
+            }
+
 
 
 
