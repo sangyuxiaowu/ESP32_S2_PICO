@@ -7,8 +7,9 @@
 # 案例说明
 
 1. SerialPortHello： 串口打印 hello
-2. BlinkBoardLed：板载 RGB 控制，WS2812
+2. BlinkBoardLed：板载 RGB 控制，WS2812 Driver、HSV、呼吸灯
 3. RGBLed：外接全彩 RGB 灯的控制 
+4. BlinkSimple：板载 RGB 控制，使用官方 Ws28xx.Esp32 包
 
 # 相关文章
 
