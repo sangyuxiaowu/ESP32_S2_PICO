@@ -14,7 +14,7 @@
 # 相关文章
 
 1. [《快速入门 .NET nanoFramework 开发 ESP32-Pico 应用》](https://mp.weixin.qq.com/s/T8NFQbErDSDfZDqzW-5zmA)
-
+2. [《炫酷 RGB 之.NET nanoFramework 点灯大师》](https://mp.weixin.qq.com/s/FdvZMDgGQYLen0BljqfWFQ)
 
 <p align="center">
 更多文章可关注我的微信公众号：桑榆肖物 <br/>

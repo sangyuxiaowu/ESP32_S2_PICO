@@ -13,6 +13,8 @@ Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "BlinkSimple", "BlinkSimple\
 EndProject
 Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "Pico_10DOF_IMU", "Pico_10DOF_IMU\Pico_10DOF_IMU.nfproj", "{79EA64B2-06B8-4B6E-8C83-3DDD82C75DF7}"
 EndProject
+Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "MotionControl", "MotionControl\MotionControl.nfproj", "{309FFD28-49F2-4C3C-836E-80F7C9ED53DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,12 @@ Global
 		{179CA303-3CA0-4E4B-9CAD-96EBF20DDA3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{179CA303-3CA0-4E4B-9CAD-96EBF20DDA3B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{179CA303-3CA0-4E4B-9CAD-96EBF20DDA3B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{309FFD28-49F2-4C3C-836E-80F7C9ED53DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{309FFD28-49F2-4C3C-836E-80F7C9ED53DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{309FFD28-49F2-4C3C-836E-80F7C9ED53DE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{309FFD28-49F2-4C3C-836E-80F7C9ED53DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{309FFD28-49F2-4C3C-836E-80F7C9ED53DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{309FFD28-49F2-4C3C-836E-80F7C9ED53DE}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{79EA64B2-06B8-4B6E-8C83-3DDD82C75DF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{79EA64B2-06B8-4B6E-8C83-3DDD82C75DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79EA64B2-06B8-4B6E-8C83-3DDD82C75DF7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
